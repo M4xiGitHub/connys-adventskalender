@@ -1,8 +1,7 @@
-import { Box, Grid, Button, Typography, Zoom, Paper } from "@mui/material";
+import { Box, Grid, Button, Typography, Zoom } from "@mui/material";
 
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { MathUtils } from "three";
 
 import { Environment } from "@react-three/drei";
 import Schleife from "./schleife.png";
@@ -41,7 +40,6 @@ export default function Main() {
             display={"flex"}
             justifyContent={"center"}
             width={{xs:"90vw",md:"50vw"}}
-            height={"84vh"}
             borderRadius={4}
             zIndex={1000}
         >
