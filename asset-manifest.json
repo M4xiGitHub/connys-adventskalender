@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/connys-adventskalender/static/css/main.6a7561cc.css",
-    "main.js": "/connys-adventskalender/static/js/main.765ee513.js",
-    "static/media/1.JPG": "/connys-adventskalender/static/media/1.3b0063e56f504a76635a.JPG",
-    "index.html": "/connys-adventskalender/index.html",
-    "main.6a7561cc.css.map": "/connys-adventskalender/static/css/main.6a7561cc.css.map",
-    "main.765ee513.js.map": "/connys-adventskalender/static/js/main.765ee513.js.map"
+    "main.css": "/static/css/main.e2cf2bf5.css",
+    "main.js": "/static/js/main.c6497ba4.js",
+    "static/media/1.JPG": "/static/media/1.3b0063e56f504a76635a.JPG",
+    "index.html": "/index.html",
+    "main.e2cf2bf5.css.map": "/static/css/main.e2cf2bf5.css.map",
+    "main.c6497ba4.js.map": "/static/js/main.c6497ba4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7561cc.css",
-    "static/js/main.765ee513.js"
+    "static/css/main.e2cf2bf5.css",
+    "static/js/main.c6497ba4.js"
   ]
 }
