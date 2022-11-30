@@ -10,7 +10,7 @@ export default function Present({ open, setUi, day }) {
     const { rot } = useSpring({
         rot: open ? [0, MathUtils.degToRad(180), 0] : [0, 0, 0],
     });
-    const { nodes, materials } = useGLTF("src/Present.glb");
+    const { nodes, materials } = useGLTF("/Present.glb");
 
     const refBlock = useRef();
     const refQuestionMark = useRef();

@@ -76,6 +76,8 @@ const PHOTOS = [
     Pictrue24,
 ];
 
+
+
 export default function Main() {
     var datum = new Date();
     const [open, setOpen] = useState(false);
@@ -86,6 +88,11 @@ export default function Main() {
     useEffect(() => {
         setOpen(false);
     }, [boxClick]);
+
+    function handleChange() {
+        setBoxClick(false);
+        setUi(false);
+    }
 
     const popup = (
         <Box
@@ -99,7 +106,7 @@ export default function Main() {
             boxShadow={10}
             display={"flex"}
             justifyContent={"center"}
-            width={{ xs: "90vw", md: "40vw" }}
+            width={{ xs: "90vw", md: "30vw" }}
             height={{ xs: "82vh", md: "80vh" }}
             borderRadius={4}
             zIndex={1000}
@@ -113,7 +120,7 @@ export default function Main() {
             >
                 <Box
                     sx={{
-                        height: { xs: "50vh", md: "30vh" },
+                        height: { xs: "50vh", md: "55vh" },
                         objectFit: "cover",
                     }}
                     component="img"
@@ -131,6 +138,7 @@ export default function Main() {
                     onClick={() => {
                         setUi(false);
                     }}
+                    sx={{color:"white"}}
                 >
                     Ok
                 </Button>
@@ -140,7 +148,7 @@ export default function Main() {
 
     return (
         <Box display={"flex"} flexDirection={"column"}>
-            <Box mb={5} onClick={() => setBoxClick(false)}>
+            <Box mb={5} onClick={() => handleChange()}>
                 <Box mt={5} mb={1} display={"flex"} justifyContent={"center"}>
                     <Typography variant={"Christmas"} color="white">
                         Conny's Adventskalender

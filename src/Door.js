@@ -14,6 +14,7 @@ export default function Door({ number, click, setClickedDay }) {
         <Grid
             item
             xs={5}
+            md={2}
             m={1}
             height="30vh"
             bgcolor="burlywood"
