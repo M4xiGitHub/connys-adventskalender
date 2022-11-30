@@ -188,22 +188,7 @@ export default function Main() {
                     height={"60vh"}
                 >
                     <Door
-                        number={1}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={2}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={3}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={4}
+                        number={14}
                         click={setBoxClick}
                         setClickedDay={setClickedDay}
                     />
@@ -213,82 +198,12 @@ export default function Main() {
                         setClickedDay={setClickedDay}
                     />
                     <Door
-                        number={6}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={7}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={8}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={9}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={10}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={11}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={12}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={13}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={14}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={15}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={16}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={17}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={18}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
                         number={19}
                         click={setBoxClick}
                         setClickedDay={setClickedDay}
                     />
                     <Door
-                        number={20}
-                        click={setBoxClick}
-                        setClickedDay={setClickedDay}
-                    />
-                    <Door
-                        number={21}
+                        number={3}
                         click={setBoxClick}
                         setClickedDay={setClickedDay}
                     />
@@ -298,12 +213,97 @@ export default function Main() {
                         setClickedDay={setClickedDay}
                     />
                     <Door
-                        number={23}
+                        number={11}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={20}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={17}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={10}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={9}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={18}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={4}
                         click={setBoxClick}
                         setClickedDay={setClickedDay}
                     />
                     <Door
                         number={24}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={16}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={7}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={1}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={12}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={8}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={21}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={13}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={2}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={23}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={15}
+                        click={setBoxClick}
+                        setClickedDay={setClickedDay}
+                    />
+                    <Door
+                        number={6}
                         click={setBoxClick}
                         setClickedDay={setClickedDay}
                     />

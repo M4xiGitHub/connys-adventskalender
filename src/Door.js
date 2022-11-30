@@ -2,10 +2,9 @@ import React from "react";
 import { Grid, Typography } from "@mui/material";
 
 export default function Door({ number, click, setClickedDay }) {
+    var date = new Date();
     function handleClick() {
-        var date = new Date();
-        console.log(date.getDate())
-        if (number <= date.getDate() && date.getMonth() === 10) {
+        if (number <= date.getDate() && date.getMonth() === 11) {
             setClickedDay(number);
             click(true);
         }
@@ -17,7 +16,7 @@ export default function Door({ number, click, setClickedDay }) {
             md={2}
             m={1}
             height="30vh"
-            bgcolor="burlywood"
+            bgcolor={number < date.getDate() ? "#deb887" : "#cf974f"}
             sx={{ borderTopLeftRadius: 100, borderTopRightRadius: 100 }}
             justifyContent={"center"}
             alignItems={"center"}
