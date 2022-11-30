@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 export default function Door({ number, click, setClickedDay }) {
     function handleClick() {
@@ -13,7 +13,7 @@ export default function Door({ number, click, setClickedDay }) {
     return (
         <Grid
             item
-            xs={3}
+            xs={5}
             m={1}
             height="30vh"
             bgcolor="burlywood"

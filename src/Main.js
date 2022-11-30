@@ -7,7 +7,32 @@ import { Environment } from "@react-three/drei";
 import Door from "./Door";
 import Schleife from "./schleife.png";
 import Present from "./Present";
-import Photo1 from "./images/1.JPG";
+import Pictrue1 from "./images/Pictrue1.JPG";
+import Pictrue2 from "./images/Pictrue2.JPG";
+import Pictrue3 from "./images/Pictrue3.JPG";
+import Pictrue4 from "./images/Pictrue4.JPG";
+import Pictrue5 from "./images/Pictrue5.JPG";
+import Pictrue6 from "./images/Pictrue6.JPG";
+import Pictrue7 from "./images/Pictrue7.JPG";
+import Pictrue8 from "./images/Pictrue8.JPG";
+import Pictrue9 from "./images/Pictrue9.JPG";
+import Pictrue10 from "./images/Pictrue10.JPG";
+import Pictrue11 from "./images/Pictrue11.JPG";
+import Pictrue12 from "./images/Pictrue12.JPG";
+import Pictrue13 from "./images/Pictrue13.JPG";
+import Pictrue14 from "./images/Pictrue14.JPG";
+import Pictrue15 from "./images/Pictrue15.JPG";
+import Pictrue16 from "./images/Pictrue16.JPG";
+import Pictrue17 from "./images/Pictrue17.JPG";
+import Pictrue18 from "./images/Pictrue18.JPG";
+import Pictrue19 from "./images/Pictrue19.JPG";
+import Pictrue20 from "./images/Pictrue20.JPG";
+import Pictrue21 from "./images/Pictrue21.JPG";
+import Pictrue22 from "./images/Pictrue22.JPG";
+import Pictrue23 from "./images/Pictrue23.JPG";
+import Pictrue24 from "./images/Pictrue24.JPG";
+
+
 import Data from "./Popup.json";
 const MONTHS = [
     "Jänner",
@@ -25,30 +50,30 @@ const MONTHS = [
 ];
 
 const PHOTOS = [
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
-    Photo1,
+    Pictrue1,
+    Pictrue2,
+    Pictrue3,
+    Pictrue4,
+    Pictrue5,
+    Pictrue6,
+    Pictrue7,
+    Pictrue8,
+    Pictrue9,
+    Pictrue10,
+    Pictrue11,
+    Pictrue12,
+    Pictrue13,
+    Pictrue14,
+    Pictrue15,
+    Pictrue16,
+    Pictrue17,
+    Pictrue18,
+    Pictrue19,
+    Pictrue20,
+    Pictrue21,
+    Pictrue22,
+    Pictrue23,
+    Pictrue24,
 ];
 
 export default function Main() {
@@ -313,7 +338,9 @@ export default function Main() {
                             setOpen(true);
                         }}
                     >
-                        <Typography variant="h6">{clickedDay} Öffnen</Typography>
+                        <Typography variant="h6">
+                            {clickedDay} Öffnen
+                        </Typography>
                     </Button>
                 </Box>
             </Box>
