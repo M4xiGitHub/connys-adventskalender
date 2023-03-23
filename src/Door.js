@@ -4,10 +4,10 @@ import { Grid, Typography } from "@mui/material";
 export default function Door({ number, click, setClickedDay }) {
     var date = new Date();
     function handleClick() {
-        if (number <= date.getDate() && date.getMonth() === 11) {
+       
             setClickedDay(number);
             click(true);
-        }
+        
     }
     return (
         <Grid
